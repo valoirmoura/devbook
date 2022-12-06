@@ -1,3 +1,21 @@
+DELETE http://localhost:5000/usuarios/1
+Accept: application/json
+
+### Atualizando um Usuario
+PUT http://localhost:5000/usuarios/7
+Content-Type: application/json
+
+{
+  "nome" : "Nerli",
+  "nick" : "nena",
+  "email" : "nerli47@hotmail.com"
+}
+
+###Buscando um Usuario por ID
+GET http://localhost:5000/usuarios/2
+Accept: application/json
+
+### Busca com Parâmetros nome ou Nick
 GET http://localhost:5000/usuarios?usuario=edi
 Accept: application/json
 
@@ -6,10 +24,10 @@ POST http://localhost:5000/usuarios
 Content-Type: application/json
 
 {
-  "nome" : "Sidnei        ",
-  "nick" : "sidnei",
-  "email" : "sidnei@gmail.com",
-  "senha" : "912343212222"
+  "nome" : "Valoir        ",
+  "nick" : "vmcod3r",
+  "email" : "valoirmoura@gmail.com",
+  "senha" : "9123"
 }
 
 ###
