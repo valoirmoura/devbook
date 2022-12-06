@@ -1,3 +1,16 @@
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email" : "valoirmoura@gmail.com",
+  "senha" : "teste12345"
+}
+
+### listar todos usuarios
+GET http://localhost:5000/usuarios
+Accept: application/json
+
+### Delete users
 DELETE http://localhost:5000/usuarios/1
 Accept: application/json
 
@@ -27,7 +40,7 @@ Content-Type: application/json
   "nome" : "Valoir        ",
   "nick" : "vmcod3r",
   "email" : "valoirmoura@gmail.com",
-  "senha" : "9123"
+  "senha" : "teste12345"
 }
 
 ###
